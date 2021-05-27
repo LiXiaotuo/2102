@@ -11,7 +11,7 @@
     if( !preg_match($patten,$post['username']) ){
         echo "必须为不小于6位的英文字母";
     }
-    if($post['pwd']!=$post['pwd2']){
+    if($post['pwd']!==$post['pwd2']){
         echo "密码不一致";
     }
     
