@@ -1,7 +1,7 @@
 
 <?php
     //生成随机字符串  $length是 返回的字符串长度
-    function str_rand($length=18){
+    function str_rand($length=99){
         $str0 = 'ABCDEFGHIJKMNPQRSTYVWXYZabcdefghijkmnpqrstuvwxyz23456789';
         $str = "";
         for($i=0;$i<$length;$i++){
