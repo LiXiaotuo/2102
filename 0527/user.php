@@ -14,4 +14,4 @@
     if($post['pwd']!==$post['pwd2']){
         echo "密码不一致";
     }
-    
+        
